@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>🔥 FREE FIRE DONAT TAJIKISTAN — Донат</title>
+<style>
+  body {
+    margin: 0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+    overflow-x: hidden;
+  }
+  header {
+    background: #1b2735;
+    padding: 25px 10px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ff3c00;
+    text-shadow: 0 0 15px #ff3c00, 0 0 30px #ff3c00;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #ff3c00;
+    position: relative;
+  }
+  .lang-switcher {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  .lang-btn {
+    background: none;
+    border: 2px solid #ff3c00;
+    color: #eee;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 700;
+    box-shadow: 0 0 8px #ff3c00;
+  }
+  .lang-btn:hover {
+    background: #ff3c00;
+    color: #111a24;
+    box-shadow: 0 0 15px #ff3c00;
+  }
+  nav {
+    background: #111a24;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+  }
+  nav a {
+    color: #eee;
+    text-decoration: none;
+    padding: 12px 24px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 6px #ff3c00;
+  }
+  nav a:hover, nav a.active {
+    background: #ff3c00;
+    color: #111a24;
+    box-shadow: 0 0 15px #ff3c00;
+    border-color: #ff3c00;
+    cursor: pointer;
+  }
+  main {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #14222dcc;
+    border-radius: 15px;
+    padding: 40px 30px;
+    box-shadow: 0 0 25px #ff3c00aa;
+    text-align: center;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+  }
+  main h1 {
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    color: #ff6100;
+    text-shadow: 0 0 20px #ff6100;
+    font-weight: 800;
+  }
+  main p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #eee;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 0 8px #000000bb;
+  }
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  label {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #ff8c33;
+    text-shadow: 0 0 6px #ff3c00;
+  }
+  input[type="text"], select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    margin-top: 8px;
+    box-sizing: border-box;
+  }
+  input#playerId, input#playerId-tj {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+  }
+  select {
+    cursor: pointer;
+  }
+  button[type="submit"] {
+    margin-top: 30px;
+    width: 100%;
+    background: linear-gradient(45deg, #ff3c00, #ff6100);
+    color: #111a24;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 18px 0;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 0 20px #ff3c00;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    user-select: none;
+    text-align: center;
+  }
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px #ff6100, 0 0 60px #ff3c00;
+  }
+  .lang-content {
+    display: none;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  .lang-content.active {
+    display: block;
+    animation: fadeIn 0.6s ease forwards;
+  }
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  footer {
+    background: #111a24;
+    text-align: center;
+    padding: 15px;
+    color: #aaa;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-top: 60px;
+    user-select: none;
+    font-weight: 700;
+  }
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      gap: 15px;
+    }
+    main {
+      margin: 30px 15px;
+      padding: 30px 15px;
+      min-height: auto;
+    }
+    main h1 {
+      font-size: 2rem;
+    }
+    main p {
+      font-size: 1rem;
+    }
+    input#playerId, input#playerId-tj {
+      width: 100%;
+    }
+    button[type="submit"] {
+      font-size: 1rem;
+      padding: 15px 0;
+    }
+    .lang-switcher {
+      top: 5px;
+      right: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  🔥 FREE FIRE DONAT TAJIKISTAN
+  <div class="lang-switcher">
+    <button class="lang-btn" onclick="changeLang('ru')">🇷🇺</button>
+    <button class="lang-btn" onclick="changeLang('tj')">🇹🇯</button>
+  </div>
+</header>
+
+<nav>
+  <a href="index.html">Главная</a>
+  <a href="donate.html" class="active">Донат</a>
+  <a href="donate-instructions.html">Инструкция</a>
+  <a href="contact.html">Контакты</a>
+  <a href="reviews.html">Отзывы</a>
+</nav>
+
+
+<main>
+  <div id="lang-ru" class="lang-content active">
+    <h1>Сделай донат и поддержи своих героев!</h1>
+    <p>Выбери количество алмазов или ваучер и способ оплаты ниже.</p>
+    <form id="form-ru">
+      <label for="playerId">ID игрока (Game ID)</label>
+      <input type="text" id="playerId" placeholder="Введите ваш ID" required />
+
+      <label for="diamondAmount">Количество алмазов</label>
+      <select id="diamondAmount" required>
+        <option disabled selected>Выберите количество</option>
+        <option value="12">100 алмазов — 12 сомони</option>
+        <option value="34">310 алмазов — 34 сомони</option>
+        <option value="56">520 алмазов — 56 сомони</option>
+        <option value="115">1060 алмазов — 115 сомони</option>
+        <option value="222">2180 алмазов — 222 сомони</option>
+        <option value="450">5600 алмазов — 450 сомони</option>
+      </select>
+
+      <label for="voucherAmount">Или выберите ваучер</label>
+      <select id="voucherAmount">
+        <option value="0" selected>Без ваучера</option>
+        <option value="21">Ваучер на неделю — 21 сомони</option>
+        <option value="120">Ваучер на месяц — 120 сомони</option>
+      </select>
+
+      <label for="paymentMethod">Способ оплаты</label>
+      <select id="paymentMethod" required>
+        <option disabled selected>Выберите способ оплаты</option>
+        <option value="dushanbe">Душанбе Сити (карта)</option>
+        <option value="alif">Alif Mobile (карта)</option>
+      </select>
+
+      <button type="submit">Перейти к оплате</button>
+    </form>
+  </div>
+
+  <div id="lang-tj" class="lang-content">
+    <h1>Барои қаҳрамонат донат кун!</h1>
+    <p>Миқдори алмос ё ваучерро интихоб намуда, тарзи пардохтро муайян намоед.</p>
+    <form id="form-tj">
+      <label for="playerId-tj">ID бозингар (Game ID)</label>
+      <input type="text" id="playerId-tj" placeholder="ID-и худро ворид намоед" required />
+
+      <label for="diamondAmount-tj">Миқдори алмос</label>
+      <select id="diamondAmount-tj" required>
+        <option disabled selected>Миқдорро интихоб намоед</option>
+        <option value="12">100 алмос — 12 сомонӣ</option>
+        <option value="34">310 алмос — 34 сомонӣ</option>
+        <option value="56">520 алмос — 56 сомонӣ</option>
+        <option value="115">1060 алмос — 115 сомонӣ</option>
+        <option value="222">2180 алмос — 222 сомонӣ</option>
+        <option value="450">5600 алмос — 450 сомонӣ</option>
+      </select>
+
+      <label for="voucherAmount-tj">Ё интихоб кунед ваучер</label>
+      <select id="voucherAmount-tj">
+        <option value="0" selected>Бе ваучер</option>
+        <option value="21">Ваучери ҳафтаина — 21 сомонӣ</option>
+        <option value="120">Ваучери моҳона — 120 сомонӣ</option>
+      </select>
+
+      <label for="paymentMethod-tj">Усули пардохт</label>
+      <select id="paymentMethod-tj" required>
+        <option disabled selected>Усулро интихоб намоед</option>
+        <option value="dushanbe">Душанбе Сити (корти бонкӣ)</option>
+        <option value="alif">Alif Mobile (корти бонкӣ)</option>
+      </select>
+
+      <button type="submit">Гузаштан ба пардохт</button>
+    </form>
+  </div>
+</main>
+
+<footer>
+  © 2025 FREE FIRE DONAT TAJIKISTAN. Все права защищены.
+</footer>
+
+<script>
+  function changeLang(lang) {
+    const ru = document.getElementById('lang-ru');
+    const tj = document.getElementById('lang-tj');
+    if(lang === 'ru') {
+      tj.classList.remove('active');
+      ru.classList.add('active');
+    } else if(lang === 'tj') {
+      ru.classList.remove('active');
+      tj.classList.add('active');
+    }
+  }
+
+  // Обработчик формы для русского языка
+  document.getElementById('form-ru').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const playerId = document.getElementById('playerId').value.trim();
+    if(!playerId) {
+      alert('Пожалуйста, введите ваш ID игрока.');
+      return;
+    }
+    const diamondAmount = parseInt(document.getElementById('diamondAmount').value) || 0;
+    const voucherAmount = parseInt(document.getElementById('voucherAmount').value) || 0;
+    const paymentMethod = document.getElementById('paymentMethod').value;
+
+    if(paymentMethod === 'dushanbe') {
+      // сумма алмазов + ваучер
+      const totalAmount = diamondAmount + voucherAmount;
+      // перенаправление с параметрами
+      window.location.href = `payment-dushanbe.html?playerId=${encodeURIComponent(playerId)}&amount=${totalAmount}+сомони`;
+    } else if(paymentMethod === 'alif') {
+      const totalAmount = diamondAmount + voucherAmount;
+      window.location.href = `payment-alif.html?playerId=${encodeURIComponent(playerId)}&amount=${totalAmount}+сомони`;
+    } else {
+      alert('Пожалуйста, выберите способ оплаты.');
+    }
+  });
+
+  // Обработчик формы для таджикского языка
+  document.getElementById('form-tj').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const playerId = document.getElementById('playerId-tj').value.trim();
+    if(!playerId) {
+      alert('Лутфан ID-и худро ворид намоед.');
+      return;
+    }
+    const diamondAmount = parseInt(document.getElementById('diamondAmount-tj').value) || 0;
+    const voucherAmount = parseInt(document.getElementById('voucherAmount-tj').value) || 0;
+    const paymentMethod = document.getElementById('paymentMethod-tj').value;
+
+    if(paymentMethod === 'dushanbe') {
+      const totalAmount = diamondAmount + voucherAmount;
+      window.location.href = `payment-dushanbe.html?playerId=${encodeURIComponent(playerId)}&amount=${totalAmount}+сомонӣ`;
+    } else if(paymentMethod === 'alif') {
+      const totalAmount = diamondAmount + voucherAmount;
+      window.location.href = `payment-alif.html?playerId=${encodeURIComponent(playerId)}&amount=${totalAmount}+сомонӣ`;
+    } else {
+      alert('Лутфан усули пардохтро интихоб намоед.');
+    }
+  });
+</script>
+
+</body>
+</html>
